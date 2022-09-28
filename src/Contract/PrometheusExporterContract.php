@@ -1,5 +1,5 @@
 <?php
-namespace U9\U9PhpPrometheus\Contract;
+namespace Uuu9\U9PhpPrometheus\Contract;
 
 use Prometheus\Exception\MetricsRegistrationException;
 use Prometheus\MetricFamilySamples;

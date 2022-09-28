@@ -1,11 +1,11 @@
 <?php
-namespace U9\U9PhpPrometheus;
+namespace Uuu9\U9PhpPrometheus;
 
 use Prometheus\PushGateway;
 use Prometheus\CollectorRegistry;
 use Prometheus\MetricFamilySamples;
 use Prometheus\Exception\MetricNotFoundException;
-use U9\U9PhpPrometheus\Contract\PrometheusExporterContract;
+use Uuu9\U9PhpPrometheus\Contract\PrometheusExporterContract;
 
 class PrometheusExporter implements PrometheusExporterContract
 {

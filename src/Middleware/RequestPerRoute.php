@@ -1,11 +1,11 @@
 <?php
 
-namespace U9\U9PhpPrometheus\Middleware;
+namespace Uuu9\U9PhpPrometheus\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
-use U9\U9PhpPrometheus\Contract\PrometheusExporterContract;
+use Uuu9\U9PhpPrometheus\Contract\PrometheusExporterContract;
 
 class RequestPerRoute
 {

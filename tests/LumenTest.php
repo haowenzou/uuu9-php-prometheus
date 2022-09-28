@@ -13,7 +13,7 @@ class LumenTest extends TestCase
         apcu_clear_cache();
         parent::setUp();
 
-        $this->app->register(\U9\U9PhpPrometheus\Provider\PrometheusExporterServiceProvider::class);
+        $this->app->register(\Uuu9\U9PhpPrometheus\Provider\PrometheusExporterServiceProvider::class);
 
         $this->app->get("/testRoute", function () {
             return "testRoute";
@@ -98,8 +98,8 @@ class LumenTest extends TestCase
     {
 
 
-        $this->app->get('/testRoute/{id:[0-9]+}/{name:[0-9]+}', \U9\U9PhpPrometheus\Controller\PrometheusExporterController::class . '@metrics');
-        $this->app->get("/testRoute/{id}/{name}", \U9\U9PhpPrometheus\Controller\PrometheusExporterController::class . '@metrics');
+        $this->app->get('/testRoute/{id:[0-9]+}/{name:[0-9]+}', \Uuu9\U9PhpPrometheus\Controller\PrometheusExporterController::class . '@metrics');
+        $this->app->get("/testRoute/{id}/{name}", \Uuu9\U9PhpPrometheus\Controller\PrometheusExporterController::class . '@metrics');
 
         $this->get("/testRoute/123/321");
 
@@ -132,7 +132,7 @@ class LumenTest extends TestCase
         $this->app->bind('request',function () use($request){
             return $request;
         });
-        $this->app->register(\uuu9\Cors\Middleware\CorsServiceProvider::class);
+        $this->app->register(\Uuu9\Cors\Middleware\CorsServiceProvider::class);
 
         //用Options method 请求接口
         $server = $this->transformHeadersToServerVars([]);

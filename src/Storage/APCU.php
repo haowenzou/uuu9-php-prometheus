@@ -1,7 +1,7 @@
 <?php
 
 
-namespace U9\U9PhpPrometheus\Storage;
+namespace Uuu9\U9PhpPrometheus\Storage;
 
 use Illuminate\Support\Facades\Log;
 use Prometheus\MetricFamilySamples;

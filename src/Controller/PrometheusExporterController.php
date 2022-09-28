@@ -1,11 +1,11 @@
 <?php
-namespace U9\U9PhpPrometheus\Controller;
+namespace Uuu9\U9PhpPrometheus\Controller;
 
 use Illuminate\Http\Response;
 use Laravel\Lumen\Routing\Controller;
 use Prometheus\RenderTextFormat;
-use U9\U9PhpPrometheus\Contract\PrometheusExporterContract;
-use U9\U9PhpPrometheus\PrometheusExporter;
+use Uuu9\U9PhpPrometheus\Contract\PrometheusExporterContract;
+use Uuu9\U9PhpPrometheus\PrometheusExporter;
 
 class PrometheusExporterController extends Controller
 {

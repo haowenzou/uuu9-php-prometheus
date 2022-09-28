@@ -1,16 +1,16 @@
 <?php
 
-namespace U9\U9PhpPrometheus\Provider;
+namespace Uuu9\U9PhpPrometheus\Provider;
 
 use Illuminate\Support\ServiceProvider;
 use Prometheus\Storage\Adapter;
 use Prometheus\Storage\InMemory;
 use Prometheus\Storage\Redis;
-use U9\U9PhpPrometheus\Contract\PrometheusExporterContract;
-use U9\U9PhpPrometheus\Controller\PrometheusExporterController;
-use U9\U9PhpPrometheus\Middleware\RequestPerRoute;
-use U9\U9PhpPrometheus\PrometheusExporter;
-use U9\U9PhpPrometheus\Storage\APCU;
+use Uuu9\U9PhpPrometheus\Contract\PrometheusExporterContract;
+use Uuu9\U9PhpPrometheus\Controller\PrometheusExporterController;
+use Uuu9\U9PhpPrometheus\Middleware\RequestPerRoute;
+use Uuu9\U9PhpPrometheus\PrometheusExporter;
+use Uuu9\U9PhpPrometheus\Storage\APCU;
 
 class PrometheusExporterServiceProvider extends ServiceProvider
 {
