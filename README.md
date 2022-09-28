@@ -38,13 +38,13 @@ https://github.com/triadev/LaravelPrometheusExporter
 ```json
 {
     "type": "vcs",
-    "url": "git@github.com:haowenzou/uuu9-php-prometheus.git"
+    "url": "git@github.com:haowenzou/uuu9-u9-php-prometheus.git"
 }
 ```
 
 2 运行命令
 ```bash
-composer require uuu9/uuu9-php-prometheus
+composer require uuu9/u9-php-prometheus
 ```
 
 3 `.env.tp`文件，新增 `APP_ROUTE_PREFIX=路由前缀`，如`APP_ROUTE_PREFIX=sso`
@@ -52,7 +52,7 @@ composer require uuu9/uuu9-php-prometheus
 4 `bootstrap/app.php`
 ```php
 //注册prometheus
-$app->register(U9\U9PhpPrometheus\Provider\PrometheusExporterServiceProvider::class);
+$app->register(Uuu9\U9PhpPrometheus\Provider\PrometheusExporterServiceProvider::class);
 ```
 
 ## laravel
