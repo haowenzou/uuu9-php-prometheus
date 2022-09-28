@@ -38,7 +38,7 @@ https://github.com/triadev/LaravelPrometheusExporter
 ```json
 {
     "type": "vcs",
-    "url": "git@git.vpgame.cn:infra/vp-php-prometheus.git"
+    "url": "git@github.com:haowenzou/uuu9-php-prometheus.git"
 }
 ```
 
