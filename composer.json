@@ -1,0 +1,34 @@
+{
+    "name": "uuu9/uuu9-php-prometheus",
+    "type": "library",
+    "require": {
+        "jimdo/prometheus_client_php": "^0.9.1",
+        "php": ">=7.0.12"
+    },
+    "require-dev": {
+        "laravel/lumen-framework": "5.3.1",
+        "uuu9/cors": "v1.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Uuu9\\U9PhpPrometheus\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:haowenzou/uuu9-cors.git"
+        }
+    ],
+    "authors": [
+        {
+            "name": "zhw",
+            "email": "980334125@qq.com"
+        }
+    ]
+}
